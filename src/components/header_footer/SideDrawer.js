@@ -6,7 +6,7 @@ import { Drawer, List, ListItem } from '@mui/material'
 const SideDrawer = (props) => {
     const links = [
         { where:'featured',value:'To top'},
-        { where:'venuenfo',value:'Venue NFO'},
+        { where:'venueInfo',value:'Venue INFO'},
         { where:'highlights',value:'Highlights'},
         { where:'pricing',value:'Pricing'},
         { where:'location',value:'Location'}
