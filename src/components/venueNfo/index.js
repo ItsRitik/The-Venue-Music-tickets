@@ -25,7 +25,7 @@ const VenueInfo = () => {
                                         Event Date & Time
                                     </div>
                                     <div className="vn_desc">
-                                        Dec 20 @01:20:00pm
+                                        Jan 27 @01:20:00pm
                                     </div>
 
                                 </div>
@@ -48,7 +48,7 @@ const VenueInfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        375 Deer Oak, Oakland, CA 9835
+                                        156 Terrace Ave, Jersey City, NJ 07307
                                     </div>
 
                                 </div>
