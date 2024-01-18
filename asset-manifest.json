@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-venue-music-tickets/static/css/main.59b9251f.css",
-    "main.js": "/the-venue-music-tickets/static/js/main.e7b8fc26.js",
+    "main.js": "/the-venue-music-tickets/static/js/main.62ec7210.js",
     "static/media/slide_one.jpg": "/the-venue-music-tickets/static/media/slide_one.3e84b025804df24ed856.jpg",
     "static/media/slide_two.jpg": "/the-venue-music-tickets/static/media/slide_two.d99ad338b23fb042dfc9.jpg",
     "static/media/slide_three.jpg": "/the-venue-music-tickets/static/media/slide_three.7d32ac5651f5cd85b1c8.jpg",
@@ -11,10 +11,10 @@
     "static/media/slick.woff": "/the-venue-music-tickets/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/the-venue-music-tickets/index.html",
     "main.59b9251f.css.map": "/the-venue-music-tickets/static/css/main.59b9251f.css.map",
-    "main.e7b8fc26.js.map": "/the-venue-music-tickets/static/js/main.e7b8fc26.js.map"
+    "main.62ec7210.js.map": "/the-venue-music-tickets/static/js/main.62ec7210.js.map"
   },
   "entrypoints": [
     "static/css/main.59b9251f.css",
-    "static/js/main.e7b8fc26.js"
+    "static/js/main.62ec7210.js"
   ]
 }
