@@ -7,9 +7,9 @@ const Princing = () => {
         prices:[100,150,200],
         position:['Balcony','Medium','Star'],
         desc:[
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uts',
-            'Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea',
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+            'Balcony seating is often considered advantageous as it provides a clear line of sight to the performance.',
+            'Medium seating may offer improved acoustics, allowing attendees to experience the music with greater clarity.',
+            'Star sections usually have a limited number of seats, which can result in a less crowded and more intimate setting.'
         ],
         linkto:['http://sales.b','http://sales/m','http://sales.s'],
         delay:[500,0,500]   
@@ -17,7 +17,7 @@ const Princing = () => {
 
     const showBoxes = () => (
         priceState.prices.map((box,index)=>(
-            <Zoom key={index} className="pricing_item" delay={priceState.delay[index]}>
+            <Zoom key={index} className="pricing_item" delay={priceState.delay[index]} triggerOnce>
                 <div className="pricing_inner_wrapper">
                     <div className="pricing_title">
                         <span>${priceState.prices[index]}</span>

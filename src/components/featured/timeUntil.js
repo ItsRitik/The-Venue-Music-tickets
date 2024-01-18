@@ -8,7 +8,7 @@ const TimeUntil = () => {
         minutes:'0',
         second:'0'
     })
-
+  
     const renderItem = (time,value) => (
         <div className="countdown_item">
             <div className="countdown_time">
@@ -49,7 +49,7 @@ const TimeUntil = () => {
 
 
     return(
-        <Slide left delay={1000}>
+        <Slide left delay={1000} triggerOnce >
             <div className="countdown_wrapper">
                 <div className="countdown_top">
                     Event starts in

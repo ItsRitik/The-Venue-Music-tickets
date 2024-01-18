@@ -33,7 +33,7 @@ const VenueInfo = () => {
                         </div>
                     </Zoom>
 
-                    <Zoom className="vn_item" delay={500}>
+                    <Zoom className="vn_item" triggerOnce >
                         <div>
                             <div className="vn_outer">
                                 <div className="vn_inner">
@@ -48,7 +48,7 @@ const VenueInfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        156 Terrace Ave, Jersey City, NJ 07307
+                                        156 Terrace Ave, NJ 07307
                                     </div>
 
                                 </div>

@@ -25,7 +25,7 @@ const Discount = () => {
         <div className="center_wrapper">
             <div className="discount_wrapper">
                  
-                <Fade
+                <Fade triggerOnce
                     onVisibilityChange={ (inView) => {
                         if(inView){
                             porcentage()
@@ -38,7 +38,7 @@ const Discount = () => {
                     </div>  
                 </Fade>
 
-                <Slide right>
+                <Slide right triggerOnce>
                     <div className="discount_description">
                         <h3>Purchase ticket before 20th June</h3>
                         <p>
@@ -47,7 +47,7 @@ const Discount = () => {
 
                         <MyButton
                             text="Purchase tickets"
-                            link="http://google.com"
+                            link="https://github.com/ItsRitik/the-venue-music-tickets"
                             size="small"
                             style={{
                                 background:'#ffa800',
